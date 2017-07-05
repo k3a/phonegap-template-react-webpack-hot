@@ -11,6 +11,7 @@ if (PLATFORM != null) {
 
 let type = 'build';
 switch (TARGET) {
+  case 'start':
   case 'run':
     type = 'development';
 }
